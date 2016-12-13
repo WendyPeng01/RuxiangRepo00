@@ -2,21 +2,21 @@
 
 ### The image displayed normal with A/t text
 
-> ![I am flower](../Images/flower.jpg "This is A/t text")
+> ![I am flower](./Images/flower.jpg "This is A/t text")
 
 ### The image displayed normal with no A/t text
-    ![](../Images/flower.jpg)
+    ![](./Images/flower.jpg)
     
 ### The image displayed normal with reference insert
   ![Flower][Flower]
-  [Flower]: ../Images/flower.jpg
+  [Flower]: ./Images/flower.jpg
   
 ### invalid insert style
-![flower][../Images/flower.jpg]
+![flower][./Images/flower.jpg]
 
 
 ### invalid image source
-![flower](../Images/flowers.jpg)
+![flower](./Images/flowers.jpg)
 
 
 ### The normal image with too greater width (External image)
