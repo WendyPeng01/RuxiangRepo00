@@ -1,109 +1,174 @@
 {
-    "build_entry_point": "",
-    "git_repository_url_open_to_public_contributors": "",
-    "docsets_to_publish": [
-        {
-            "docset_name": "Test01",
-            "build_output_subfolder": "Docs/Test01",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-        {
-            "docset_name": "Test02",
-            "build_output_subfolder": "Docs/Test02",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-        {
-            "docset_name": "Test03",
-            "build_output_subfolder": "Docs/Test03",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-        {
-            "docset_name": "Test04",
-            "build_output_subfolder": "Docs/Test04",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-        {
-            "docset_name": "Test05",
-            "build_output_subfolder": "Docs/Test05",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-         {
-            "docset_name": "Test06",
-            "build_output_subfolder": "Docs/Test06",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-         },
-         {
-            "docset_name": "Test07",
-            "build_output_subfolder": "Docs/Test07",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-         },
-	{
-            "docset_name": "Test08",
-            "build_output_subfolder": "Docs/Test08",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-         },
-	{
-            "docset_name": "Test09",
-            "build_output_subfolder": "Docs/Test09",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-         },
-	{
-            "docset_name": "Test09",
-            "build_output_subfolder": "Docs/Test09",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-         },
-
-    ],
-    "notification_subscribers": ["v-rukang@microsoft.com"],
-    "branches_to_filter": ["Ruixiang_dev"]
+  "build_entry_point": "op",
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "Test01",
+      "build_source_folder": "Docs/Test01",
+      "build_output_subfolder": "Docs/Test01",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "op"
+    },
+    {
+      "docset_name": "Test02",
+      "build_source_folder": "Docs/Test02",
+      "build_output_subfolder": "Docs/Test02",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "op"
+    },
+    {
+      "docset_name": "Test03",
+      "build_source_folder": "Docs/Test03",
+      "build_output_subfolder": "Docs/Test03",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "op"
+    },
+    {
+      "docset_name": "Test04",
+      "build_source_folder": "Docs/Test04",
+      "build_output_subfolder": "Docs/Test04",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "Test05",
+      "build_source_folder": "Docs/Test05",
+      "build_output_subfolder": "Docs/Test05",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes.MSDN.Modern"
+    },
+    {
+      "docset_name": "Test06",
+      "build_source_folder": "Docs/Test06",
+      "build_output_subfolder": "Docs/Test06",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes.VS.Modern"
+    },
+    {
+      "docset_name": "Test07",
+      "build_source_folder": "Docs/Test07",
+      "build_output_subfolder": "Docs/Test07",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes.TechNet.Modern"
+    },
+    {
+      "docset_name": "Test08",
+      "build_source_folder": "Docs/Test08",
+      "build_output_subfolder": "Docs/Test08",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes.OPS"
+    },
+    {
+      "docset_name": "Test09",
+      "build_source_folder": "Docs/Test09",
+      "build_output_subfolder": "Docs/Test09",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs"
+    },
+    {
+      "docset_name": "Test09",
+      "build_source_folder": "Docs/Test09",
+      "build_output_subfolder": "Docs/Test09",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    }
+  ],
+  "notification_subscribers": [
+    "v-rukang@microsoft.com"
+  ],
+  "branches_to_filter": [
+    "Ruixiang_dev"
+  ],
+  "git_repository_url_open_to_public_contributors": "",
+  "skip_source_output_uploading": false,
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.MSDN.Modern",
+      "url": "https://github.com/Microsoft/templates.msdn.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.VS.Modern",
+      "url": "https://github.com/Microsoft/templates.vs.com",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.TechNet.Modern",
+      "url": "https://github.com/Microsoft/templates.technet.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.OPS",
+      "url": "https://github.com/Microsoft/templates.starterkit",
+      "branch": "master",
+      "branch_mapping": {}
+    }
+  ],
+  "need_generate_pdf_url_template": false
 }
