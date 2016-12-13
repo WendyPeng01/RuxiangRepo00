@@ -76,7 +76,7 @@
         "Conceptual": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes.TechNet.Modern"
+      "template_folder": "_themes.VS.Modern"
     },
     {
       "docset_name": "WAPSQLServer_Cmdlets",
@@ -109,6 +109,12 @@
     {
       "path_to_root": "_themes.MSDN.Modern",
       "url": "https://github.com/Microsoft/templates.msdn.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.VS.Modern",
+      "url": "https://github.com/Microsoft/templates.vs.com",
       "branch": "master",
       "branch_mapping": {}
     },
