@@ -1,77 +1,123 @@
 {
-    "build_entry_point": "",
-    "git_repository_url_open_to_public_contributors": "",
-    "docsets_to_publish": [
-        {
-            "docset_name": "Docset1",
-            "build_output_subfolder": "Docs/Docset1",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-        {
-            "docset_name": "Docset2",
-            "build_output_subfolder": "Docs/Docset2",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-        {
-            "docset_name": "Ruixiang_Docset1",
-            "build_output_subfolder": "Docs/Ruixiang_Docset1",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-        {
-            "docset_name": "SmokeTesting",
-            "build_output_subfolder": "Docs/SmokeTesting",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-        {
-            "docset_name": "Docset_OlinaTest",
-            "build_output_subfolder": "Docs/Docset_OlinaTest",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        },
-         {
-            "docset_name": "PSITPro5_Management",
-            "build_output_subfolder": "Docs/PSITPro5_Management",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-         },
-         {
-            "docset_name": "WAPSQLServer_Cmdlets",
-            "build_output_subfolder": "Docs/WAPSQLServer_Cmdlets",
-            "locale": "en-us",
-            "version": 0,
-            "open_to_public_contributors": "false",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-         }
-    ],
-    "notification_subscribers": ["v-yichen@microsoft.com"],
+  "build_entry_point": "op",
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "Docset1",
+      "build_source_folder": "Docs/Docset1",
+      "build_output_subfolder": "Docs/Docset1",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "op"
+    },
+    {
+      "docset_name": "Docset2",
+      "build_source_folder": "Docs/Docset2",
+      "build_output_subfolder": "Docs/Docset2",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "op"
+    },
+    {
+      "docset_name": "Ruixiang_Docset1",
+      "build_source_folder": "Docs/Ruixiang_Docset1",
+      "build_output_subfolder": "Docs/Ruixiang_Docset1",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "op"
+    },
+    {
+      "docset_name": "SmokeTesting",
+      "build_source_folder": "Docs/SmokeTesting",
+      "build_output_subfolder": "Docs/SmokeTesting",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
+      "docset_name": "Docset_OlinaTest",
+      "build_source_folder": "Docs/Docset_OlinaTest",
+      "build_output_subfolder": "Docs/Docset_OlinaTest",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes.MSDN.Modern"
+    },
+    {
+      "docset_name": "PSITPro5_Management",
+      "build_source_folder": "Docs/PSITPro5_Management",
+      "build_output_subfolder": "Docs/PSITPro5_Management",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes.TechNet.Modern"
+    },
+    {
+      "docset_name": "WAPSQLServer_Cmdlets",
+      "build_source_folder": "Docs/WAPSQLServer_Cmdlets",
+      "build_output_subfolder": "Docs/WAPSQLServer_Cmdlets",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs"
+    }
+  ],
+  "notification_subscribers": [
+    "v-yichen@microsoft.com"
+  ],
+  "branches_to_filter": [
+    "master"
+  ],
+  "git_repository_url_open_to_public_contributors": "",
+  "skip_source_output_uploading": false,
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.MSDN.Modern",
+      "url": "https://github.com/Microsoft/templates.msdn.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.TechNet.Modern",
+      "url": "https://github.com/Microsoft/templates.technet.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    }
+  ],
+  "need_generate_pdf_url_template": false
 }
