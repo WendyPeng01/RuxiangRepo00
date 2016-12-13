@@ -3,8 +3,8 @@
     "git_repository_url_open_to_public_contributors": "",
     "docsets_to_publish": [
         {
-            "docset_name": "Docset1",
-            "build_output_subfolder": "Docs/Docset1",
+            "docset_name": "Test01",
+            "build_output_subfolder": "Docs/Test01",
             "locale": "en-us",
             "version": 0,
             "open_to_public_contributors": "false",
@@ -13,8 +13,8 @@
             }
         },
         {
-            "docset_name": "Docset2",
-            "build_output_subfolder": "Docs/Docset2",
+            "docset_name": "Test02",
+            "build_output_subfolder": "Docs/Test02",
             "locale": "en-us",
             "version": 0,
             "open_to_public_contributors": "false",
@@ -23,8 +23,8 @@
             }
         },
         {
-            "docset_name": "Ruixiang_Docset1",
-            "build_output_subfolder": "Docs/Ruixiang_Docset1",
+            "docset_name": "Test03",
+            "build_output_subfolder": "Docs/Test03",
             "locale": "en-us",
             "version": 0,
             "open_to_public_contributors": "false",
@@ -33,8 +33,8 @@
             }
         },
         {
-            "docset_name": "SmokeTesting",
-            "build_output_subfolder": "Docs/SmokeTesting",
+            "docset_name": "Test04",
+            "build_output_subfolder": "Docs/Test04",
             "locale": "en-us",
             "version": 0,
             "open_to_public_contributors": "false",
@@ -43,8 +43,8 @@
             }
         },
         {
-            "docset_name": "Docset_OlinaTest",
-            "build_output_subfolder": "Docs/Docset_OlinaTest",
+            "docset_name": "Test05",
+            "build_output_subfolder": "Docs/Test05",
             "locale": "en-us",
             "version": 0,
             "open_to_public_contributors": "false",
@@ -53,8 +53,8 @@
             }
         },
          {
-            "docset_name": "PSITPro5_Management",
-            "build_output_subfolder": "Docs/PSITPro5_Management",
+            "docset_name": "Test06",
+            "build_output_subfolder": "Docs/Test06",
             "locale": "en-us",
             "version": 0,
             "open_to_public_contributors": "false",
@@ -63,16 +63,47 @@
             }
          },
          {
-            "docset_name": "WAPSQLServer_Cmdlets",
-            "build_output_subfolder": "Docs/WAPSQLServer_Cmdlets",
+            "docset_name": "Test07",
+            "build_output_subfolder": "Docs/Test07",
             "locale": "en-us",
             "version": 0,
             "open_to_public_contributors": "false",
             "type_mapping": {
                 "Conceptual": "Content"
             }
-         }
+         },
+	{
+            "docset_name": "Test08",
+            "build_output_subfolder": "Docs/Test08",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+         },
+	{
+            "docset_name": "Test09",
+            "build_output_subfolder": "Docs/Test09",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+         },
+	{
+            "docset_name": "Test09",
+            "build_output_subfolder": "Docs/Test09",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+         },
+
     ],
-    "notification_subscribers": ["v-yichen@microsoft.com"],
-    "branches_to_filter": ["master"]
+    "notification_subscribers": ["v-rukang@microsoft.com"],
+    "branches_to_filter": ["Ruixiang_dev"]
 }
