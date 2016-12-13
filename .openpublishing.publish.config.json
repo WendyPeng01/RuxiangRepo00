@@ -1,1 +1,109 @@
-{    "build_entry_point": "",    "git_repository_url_open_to_public_contributors": "",    "docsets_to_publish": [        {            "docset_name": "Test01",            "build_output_subfolder": "Docs/Test01",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }        },        {            "docset_name": "Test02",            "build_output_subfolder": "Docs/Test02",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }        },        {            "docset_name": "Test03",            "build_output_subfolder": "Docs/Test03",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }        },        {            "docset_name": "Test04",            "build_output_subfolder": "Docs/Test04",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }        },        {            "docset_name": "Test05",            "build_output_subfolder": "Docs/Test05",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }        },         {            "docset_name": "Test06",            "build_output_subfolder": "Docs/Test06",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }         },{            "docset_name": "Test06",            "build_output_subfolder": "Docs/Test06",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }         },   {            "docset_name": "Test07",            "build_output_subfolder": "Docs/Test07",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }         },   {            "docset_name": "Test08",            "build_output_subfolder": "Docs/Test08",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }         },   {            "docset_name": "Test09",            "build_output_subfolder": "Docs/Test09",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }         },         {            "docset_name": "Test10",            "build_output_subfolder": "Docs/Test10",            "locale": "en-us",            "version": 0,            "open_to_public_contributors": "false",            "type_mapping": {                "Conceptual": "Content"            }         }    ],    "notification_subscribers": ["v-rukang@microsoft.com"],    "branches_to_filter": ["master"]}
+{
+    "build_entry_point": "",
+    "git_repository_url_open_to_public_contributors": "",
+    "docsets_to_publish": [
+        {
+            "docset_name": "Test01",
+            "build_output_subfolder": "Docs/Test01",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+        },
+        {
+            "docset_name": "Test02",
+            "build_output_subfolder": "Docs/Test02",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+        },
+        {
+            "docset_name": "Test03",
+            "build_output_subfolder": "Docs/Test03",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+        },
+        {
+            "docset_name": "Test04",
+            "build_output_subfolder": "Docs/Test04",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+        },
+        {
+            "docset_name": "Test05",
+            "build_output_subfolder": "Docs/Test05",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+        },
+         {
+            "docset_name": "Test06",
+            "build_output_subfolder": "Docs/Test06",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+         },
+         {
+            "docset_name": "Test07",
+            "build_output_subfolder": "Docs/Test07",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+         },
+	{
+            "docset_name": "Test08",
+            "build_output_subfolder": "Docs/Test08",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+         },
+	{
+            "docset_name": "Test09",
+            "build_output_subfolder": "Docs/Test09",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+         },
+	{
+            "docset_name": "Test09",
+            "build_output_subfolder": "Docs/Test09",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+         },
+
+    ],
+    "notification_subscribers": ["v-rukang@microsoft.com"],
+    "branches_to_filter": ["master"]
+}
