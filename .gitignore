@@ -3,3 +3,7 @@ xhtml/
 packages/
 obj/
 _site/
+
+.openpublishing.build.mdproj
+.openpublishing.publish.config.json
+packages.config
