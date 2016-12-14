@@ -23,3 +23,8 @@
 > [!VIDEO https://channel9.msdn.com/Events/TechEd/Europe/2014/EM-B313/player]
 >
 >
+
+### Another md syntax foe inserting video and invalid link
+> [!VIDEO https://channel9.msdn.com/Events/TechEd/Europe/2014/EM-B313/play]
+>
+>
